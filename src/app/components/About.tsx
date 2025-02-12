@@ -3,9 +3,9 @@ import Title from "./common/Title";
 
 export default function About() {
   return (
-    <section className="flex flex-col items-center py-[150px]">
+    <section className="flex flex-col items-center pt-[150px] pb-[250px]">
       <Title title="Profile" />
-      <ul className="flex w-full gap-[50px] justify-between items-center">
+      <ul className="flex w-full gap-[30px] justify-between items-center">
         <li className="w-[30%]">
           <h3 className="text-30-b">About Me</h3>
           <p className="text-20-l my-10 ">
@@ -21,7 +21,7 @@ export default function About() {
           </button>
         </li>
         <li>
-          <img className="w-[300px] h-[300px] border" />
+          <img className="w-[350px] h-[350px] border" />
         </li>
         <li className="w-[30%]">
           <h3 className="text-30-b mb-10">Detail</h3>
@@ -30,7 +30,11 @@ export default function About() {
               <p className="text-20-b">Name :</p>
               <p>Hyeji Choi</p>
             </li>
-            <li className="text-20-l">
+            <li className="text-20-l  mt-[10px]">
+              <p className="text-20-b">Skills :</p>
+              <p>React.js, Next.js, Vue.js, Javascript, Nginx, Springboot</p>
+            </li>
+            <li className="text-20-l mt-[10px]">
               <p className="text-20-b">Language :</p>
               <p>English, Chinese, Korean</p>
             </li>

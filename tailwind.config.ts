@@ -21,7 +21,6 @@ const config: Config = {
           {
             fontWeight: 800,
             lineHeight: "85px",
-            letterSpacing: "-0.8px",
           },
         ],
         "40-b": [
@@ -29,7 +28,13 @@ const config: Config = {
           {
             fontWeight: 800,
             lineHeight: "55px",
-            letterSpacing: "-0.8px",
+          },
+        ],
+        "40-l": [
+          "40px",
+          {
+            fontWeight: 400,
+            lineHeight: "55px",
           },
         ],
         "30-b": [
@@ -37,7 +42,6 @@ const config: Config = {
           {
             fontWeight: 800,
             lineHeight: "40px",
-            letterSpacing: "-0.8px",
           },
         ],
         "20-b": [
@@ -45,7 +49,6 @@ const config: Config = {
           {
             fontWeight: 800,
             lineHeight: "40px",
-            letterSpacing: "-0.8px",
           },
         ],
         "20-l": [
@@ -53,7 +56,13 @@ const config: Config = {
           {
             fontWeight: 400,
             lineHeight: "40px",
-            letterSpacing: "-0.8px",
+          },
+        ],
+        "18-l": [
+          "18px",
+          {
+            fontWeight: 300,
+            lineHeight: "40px",
           },
         ],
       },
