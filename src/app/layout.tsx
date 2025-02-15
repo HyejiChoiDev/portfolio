@@ -1,5 +1,5 @@
-import type { Metadata } from "next";
 import "./globals.css";
+import type { Metadata } from "next";
 import { robotoRegular } from "./fonts/fonts";
 import { Header, Footer } from "./layouts";
 
@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${robotoRegular.variable}`}>
-      <body className="min-w-[720px]">
+      <body className="min-w-[900px]">
         <Header />
         {children}
         <Footer />

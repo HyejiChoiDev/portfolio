@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Main() {
   return (
-    <section className="flex flex-col items-center h-[100vh] mt-[-120px] justify-center">
+    <section className="flex flex-col items-center min-h-[700px] h-[100vh] mt-[-120px] justify-center">
       <Image
         priority
         width={500}

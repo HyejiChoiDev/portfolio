@@ -3,7 +3,10 @@ import Title from "./common/Title";
 
 export default function About() {
   return (
-    <section className="flex flex-col items-center pt-[150px] pb-[250px]">
+    <section
+      id="about"
+      className="flex flex-col items-center pt-[150px] pb-[250px]"
+    >
       <Title title="Profile" />
       <ul className="flex w-full gap-[30px] justify-between items-center">
         <li className="w-[30%]">
