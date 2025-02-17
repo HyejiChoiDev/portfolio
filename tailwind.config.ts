@@ -21,49 +21,54 @@ const config: Config = {
           "70px",
           {
             fontWeight: 800,
-            lineHeight: "85px",
+          },
+        ],
+        "50-b": [
+          "50px",
+          {
+            fontWeight: 800,
           },
         ],
         "40-b": [
           "40px",
           {
             fontWeight: 800,
-            lineHeight: "55px",
           },
         ],
         "40-l": [
           "40px",
           {
             fontWeight: 400,
-            lineHeight: "55px",
           },
         ],
         "30-b": [
           "30px",
           {
             fontWeight: 800,
-            lineHeight: "40px",
           },
         ],
         "20-b": [
           "20px",
           {
             fontWeight: 800,
-            lineHeight: "40px",
           },
         ],
         "20-l": [
           "20px",
           {
             fontWeight: 400,
-            lineHeight: "40px",
           },
         ],
         "18-l": [
           "18px",
           {
             fontWeight: 300,
-            lineHeight: "40px",
+          },
+        ],
+        "16-b": [
+          "16px",
+          {
+            fontWeight: 800,
           },
         ],
       },
